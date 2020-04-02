@@ -80,7 +80,7 @@ class Owner
   #     animals.clear
   #   end
   
-  def list_pets
-    puts self.all
-  end
+  # def list_pets
+  #   puts self.all
+  # end
 end
