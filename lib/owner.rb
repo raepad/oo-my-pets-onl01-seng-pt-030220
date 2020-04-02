@@ -66,8 +66,8 @@ class Owner
     cats.each do |cat| 
       cat.owner == nil
     end
-    dogs.each {|sell| sell.mood = "nervous"}
     
+    dogs.each {|sell| sell.mood = "nervous"}
     dogs.each do |dog| 
       dog.owner == nil
     end
