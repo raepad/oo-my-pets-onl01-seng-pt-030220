@@ -61,7 +61,7 @@ class Owner
   end
   
   def sell_pets
-    species.select do |pet|
+    self.select do |pet|
       pet = Owner.new
       pet.mood = "nervous"
       pet.clear
