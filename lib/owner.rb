@@ -73,7 +73,7 @@ class Owner
   end
     
   def list_pets
-    self.all.count
+    self.cats.count
     
   end
 end
