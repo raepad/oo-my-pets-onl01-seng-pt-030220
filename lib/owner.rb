@@ -67,7 +67,7 @@ class Owner
     #   cat.owner == nil
     # end
     
-    self.dogs.owner.each {|sell| sell.mood = "nervous"}
+    self.dogs.each {|sell| sell.mood = "nervous"}
     self.cats.owner == nil
     # self.dogs.each do |dog| 
     #   dog.owner == nil
