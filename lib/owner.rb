@@ -71,20 +71,8 @@ class Owner
       dog.owner = nil
     end
   end
-    # cats.each do |cat|
-    #   cat = Owner.new
-    #   cat.mood = "nervous"
-    #   cat.clear
-    # end
-  
-  # pets.each do |species, animals|
-  #     animals.each do |animal|
-  #       animal.mood = "nervous"
-  #     end
-  #     animals.clear
-  #   end
-  
-  # def list_pets
-  #   puts self.all
-  # end
+    
+  def list_pets
+    
+  end
 end
