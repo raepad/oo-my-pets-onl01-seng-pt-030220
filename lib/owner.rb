@@ -68,7 +68,7 @@ class Owner
     end
     dogs.each {|sell| sell.mood = "nervous"}
     
-    Dog.all.select do |dog| 
+    dogs.all.select do |dog| 
       dog.owner == nil
     end
   end
