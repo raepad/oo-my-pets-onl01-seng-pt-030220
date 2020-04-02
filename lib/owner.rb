@@ -66,12 +66,13 @@ class Owner
       pet.mood = "nervous"
       pet.clear
     end
+  end
     # cats.each do |cat|
     #   cat = Owner.new
     #   cat.mood = "nervous"
     #   cat.clear
     # end
-  end
+  
   # pets.each do |species, animals|
   #     animals.each do |animal|
   #       animal.mood = "nervous"
