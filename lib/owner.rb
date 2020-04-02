@@ -81,6 +81,6 @@ class Owner
   #   end
   
   def list_pets
-    self.all
+    puts self.all
   end
 end
